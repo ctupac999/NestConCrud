@@ -1,0 +1,14 @@
+{
+    "name": "string",
+    "releaseDate": "string",
+    "tracks": 1,
+    "famousSongs": {
+        "song1": "string",
+        "song2": "string",
+        "song3": "string"
+    },
+    "albumCover": "string",
+    "description": "string",
+    "artistInfo": "string",
+    "duration": "string"
+}

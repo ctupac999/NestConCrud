@@ -1,18 +1,23 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/common';
+import { Controller, Get, Post, Body, Patch, Param, Delete, Res, HttpStatus } from '@nestjs/common';
 import { AlbumService } from './album.service';
 import { CreateAlbumDto } from './dto/create-album.dto';
 import { UpdateAlbumDto } from './dto/update-album.dto';
 
 @Controller('album')
 export class AlbumController {
-  constructor(private readonly albumService: AlbumService) {}
+  constructor(private readonly albumService: AlbumService) { }
 
-  @Post()
-  create(@Body() createAlbumDto: CreateAlbumDto) {
-    return this.albumService.create(createAlbumDto);
+  @Post('')
+  async createAlbum(@Res() response, @Body() createAlbumDto: CreateAlbumDto) {
+    const albumCreated = await this.albumService.createAlbum(createAlbumDto);
+    console.log(createAlbumDto)
+    return response.status(HttpStatus.OK).json({
+      message: "The album has been created",
+      albumCreated
+    })
   }
 
-  @Get()
+  @Get('')
   findAll() {
     return this.albumService.findAll();
   }

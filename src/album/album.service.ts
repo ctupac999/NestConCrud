@@ -1,11 +1,17 @@
 import { Injectable } from '@nestjs/common';
 import { CreateAlbumDto } from './dto/create-album.dto';
 import { UpdateAlbumDto } from './dto/update-album.dto';
+import { Album } from './schemas/album.schema';
+import { InjectModel } from '@nestjs/mongoose';
+import { Model } from 'mongoose';
 
 @Injectable()
 export class AlbumService {
-  create(createAlbumDto: CreateAlbumDto) {
-    return 'This action adds a new album';
+  constructor(@InjectModel('Album') private readonly albumModel: Model<Album>) { }
+
+  async createAlbum(createAlbumDto: CreateAlbumDto): Promise<Album> {
+    const albumCreated = new this.albumModel(createAlbumDto)
+    return await albumCreated.save();
   }
 
   findAll() {
