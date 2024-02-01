@@ -4,8 +4,8 @@ import { Date, HydratedDocument } from 'mongoose';
 export type AlbumDocument = HydratedDocument<Album>;
 @Schema()
 export class Album {
-        // @Prop({ unique: true, default: Date.now })
-        // _id: string;
+        @Prop({ unique: true, default: Date.now })
+        _id: string;
         @Prop({ unique: true, required: true })
         name: string;
         @Prop({ required: true })
