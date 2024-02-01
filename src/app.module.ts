@@ -11,3 +11,4 @@ import { MongooseModule } from '@nestjs/mongoose';
   providers: [AppService],
 })
 export class AppModule { }
+// mongodb + srv://cristiands9999:<password>@book-api.mn8xdgs.mongodb.net/apiMusic

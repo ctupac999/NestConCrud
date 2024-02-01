@@ -4,6 +4,7 @@ import { UpdateAlbumDto } from './dto/update-album.dto';
 import { Album } from './schemas/album.schema';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
+import { UpdateUserDto } from 'src/user/dto/update-user.dto';
 
 @Injectable()
 export class AlbumService {
@@ -13,20 +14,28 @@ export class AlbumService {
     const albumCreated = new this.albumModel(createAlbumDto)
     return await albumCreated.save();
   }
-
-  findAll() {
-    return `This action returns all album`;
+  async findOneAlbum(id: string): Promise<Album> {
+    const findAlbum = await this.albumModel.findById(id);
+    return findAlbum
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} album`;
+
+  async findAllAlbum(): Promise<Album[]> {
+    const allAlbum = await this.albumModel.find();
+    console.log(allAlbum);
+    return allAlbum;
   }
 
-  update(id: number, updateAlbumDto: UpdateAlbumDto) {
-    return `This action updates a #${id} album`;
+  async updateAlbum(
+    id: string,
+    updateAlbumDto: UpdateAlbumDto):
+    Promise<Album> {
+    const updateAlbum = await this.albumModel.findByIdAndUpdate(id, updateAlbumDto);
+    return updateAlbum
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} album`;
+  async removeAlbum(id: string): Promise<Album> {
+    const removeAlbum = await this.albumModel.findByIdAndDelete(id);
+    return removeAlbum
   }
 }
