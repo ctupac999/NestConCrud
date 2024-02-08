@@ -4,7 +4,6 @@ import { UpdateAlbumDto } from './dto/update-album.dto';
 import { Album } from './schemas/album.schema';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
-import { UpdateUserDto } from 'src/user/dto/update-user.dto';
 
 @Injectable()
 export class AlbumService {
