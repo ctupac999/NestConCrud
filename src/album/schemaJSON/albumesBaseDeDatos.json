@@ -1,0 +1,141 @@
+{
+    "name": "The Wall",
+    "releaseDate": "30/11/1979",
+    "tracks": 26,
+    "famousSongs": {
+        "song1": "Another Brick In The Wall",
+        "song2": "Hey You",
+        "song3": "Comfortably Numb"
+    },
+    "description": "The Wall —en español: El muro— es el undécimo álbum de estudio del grupo musical británica de rock progresivo Pink Floyd y el segundo doble, se lanzó al mercado en noviembre de 1979 en el Reino Unido y en enero de 1980 en Estados Unidos. Se grabó entre abril y noviembre bajo la dirección del productor Bob Ezrin y de los miembros de Pink Floyd David Gilmour y Roger Waters.",
+    "artistInfo": "Pink Floyd fue una banda de rock británica, fundada en Londres en 1965. Considerada un ícono cultural del siglo XX y una de las bandas más influyentes, exitosas y aclamadas en la historia de la música popular, obtuvo gran popularidad dentro del circuito underground gracias a su música psicodélica.",
+    "duration": "1h20m"
+}
+
+{
+    "name": "Fuerza Natural",
+    "releaseDate": "12/03/2009",
+    "tracks": 14,
+    "famousSongs": {
+        "song1": "Magia",
+        "song2": "Cactus",
+        "song3": "Deja Vu"
+    },
+    "description": "Fuerza natural es el quinto y último álbum de estudio de Gustavo Cerati en su etapa como solista, lanzado el 1 de septiembre de 2009. El disco se caracteriza por un sonido folk con presencia de guitarras acústicas y mandolinas. Fue certificado con disco de oro en Argentina por vender más de 20 000 copias",
+    "artistInfo": "Gustavo Adrián Cerati (Barracas, Buenos Aires, 11 de agosto de 1959-Núñez, Buenos Aires, 4 de septiembre de 2014), conocido como Gustavo Cerati, fue un músico, cantautor y productor discográfico argentino que obtuvo reconocimiento internacional por haber sido el líder, vocalista, compositor",
+    "duration": "56m"
+}
+
+
+
+{
+    "name": "El Tesoro De Los Inocentes",
+    "releaseDate": "12/2004",
+    "tracks": 14,
+    "famousSongs": {
+        "song1": " Nike Es La Cultura",
+        "song2": "La Muerte y Yo",
+        "song3": "Tsunami"
+    },
+    "description": "El tesoro de los inocentes (Bingo fuel) es el primer álbum de estudio de Los Fundamentalistas del Aire Acondicionado, grupo musical fundado y liderada por el músico Indio Solari, exvocalista del grupo Patricio Rey y sus Redonditos de Ricota",
+    "artistInfo": "Carlos Alberto Solari (Paraná, 17 de enero de 1949)      conocido como Indio Solari, es un músico argentino, miembro fundador del grupo Patricio Rey y sus Redonditos de Ricota (también conocidos como Los Redondos).
+En 1976, en la ciudad de La Plata, forma Los Redondos junto a Skay Beilinson. La banda editó nueve álbumes de estudio hasta su disolución en 2001.",
+    "duration": "1h5m"
+}
+
+{
+    "name": "AM",
+    "releaseDate": "09/09/2013",
+    "tracks": 14,
+    "famousSongs": {
+        "song1": "Do I Wanna Know?",
+        "song2": "R U Mine?",
+        "song3": "I Wanna Be Yours"
+    },
+    "description": "AM es el quinto álbum de estudio de la banda inglesa de Indie Rock, Arctic Monkeys. Fue lanzado el 9 de septiembre de 2013, bajo el sello Domino Records.  El 15 de julio de 2013, revelaron la portada del álbum.  El disco cuenta con las colaboraciones de Josh Homme, Bill Ryder-Jones y Pete Thomas. Fue producido por James Ford y coproducido por Ross Orton",
+    "artistInfo": "Arctic Monkeys (Español: Los Monos Árticos) es una banda británica de rock alternativo, formada en Sheffield, Reino Unido.  El grupo está compuesto por el guitarrista principal y vocalista Alex Turner, el guitarrista Jamie Cook, el baterista Matt Helders y el bajista Nick O'Malley.",
+    "duration": "41m"
+}
+
+
+{
+    "name": "M.O.T.A.",
+    "releaseDate": "05/10/2005",
+    "tracks": 17,
+    "famousSongs": {
+        "song1": "Que será?",
+        "song2": "Yavida",
+        "song3": "Cancion Despojo"
+    },
+    "description": " El disco “M.O.T.A.” de Cultura Profética, lanzado en 2005, lleva un acrónimo en su título: “Momentos de Ocio en el Templo del Ajusco”. Este álbum es un hito en la historia del Reggae en Español, mostrando una banda profesional con un sólido concepto lírico y musical",
+    "artistInfo": "Es una banda de reggae en español, originaria de San Juan, Puerto Rico que hizo su debut en 1996. Son reconocidos por su particular estilo con toques de roots reggae, su tributos a Bob Marley,1 y una discografía rica en exploraciones sonoras.",
+    "duration": "string"
+}
+
+{
+    "name": "In Rainbows",
+    "releaseDate": "10/10/2007",
+    "tracks": 10,
+    "famousSongs": {
+        "song1": "Nude",
+        "song2": "Weird Fishes/Arpeggi",
+        "song3": "House Of Cards"
+    },
+    "description": " In Rainbows es el séptimo álbum de estudio de la banda británica de rock alternativo Radiohead. Originalmente se lanzó el 10 de octubre de 2007 en formato digital y se convino que los interesados en descargarlo pagaran lo que creyeran conveniente. En segundo término, se lanzó en formato CD en muchos países durante la última semana de ese año.",
+    "artistInfo": " Radiohead es una banda británica de rock alternativo originaria de Abingdon-on-Thames, Inglaterra, formada en 1985 inicialmente como una banda de versiones. Está integrada por Thom Yorke (voz, guitarra, piano), Jonny Greenwood (guitarra solista, teclados, otros instrumentos), Ed O'Brien (guitarra, segunda voz), Colin Greenwood (bajo, teclados) y Phil Selway (batería",
+    "duration": "42m"
+}
+
+{
+    "name": "Now And Then",
+    "releaseDate": "02/11/2023",
+    "tracks": 2,
+    "famousSongs": {
+        "song1": "Now And Then",
+        "song2": "Love Me Do",
+    },
+    "description": "es un sencillo de la banda británica de rock The Beatles, lanzado el 2 de noviembre de 2023. Este tema forma parte de un sencillo de doble cara A, que también incluye una nueva mezcla de su primer sencillo, «Love Me Do», original de 1962. Conocido como "la última canción de los Beatles", «Now and Then» también fue incluida en la reedición ampliada de la compilación "1967-1970" de 1973, lanzada el 10 de noviembre de 2023.",
+    "artistInfo": "Está considerada como la banda más importante del movimiento contracultural de la década de 1960 y de la historia de la música.123456 Enraizada en el skiffle, la música beat y el rock and roll de los años 1950, su sonido incorporaría a menudo elementos de la música clásica y del pop tradicional, entre otros, de forma innovadora en sus canciones; la banda posteriormente llegaría a trabajar con un extenso rango de estilos musicales, yendo desde las baladas y la música de India, hasta la psicodelia y el hard rock.",
+    "duration": "6m"
+}
+
+{
+    "name": "Rammstein",
+    "releaseDate": "17/05/2019",
+    "tracks": 11,
+    "famousSongs": {
+        "song1": "Radio",
+        "song2": "Ausländer",
+        "song3": "Deutschland"
+    },
+    "description": "El álbum recibió críticas positivas de los críticos. También fue un éxito comercial, alcanzando el número uno en más de diez países. Estableció un récord de la mayor cantidad de unidades vendidas de un álbum en su primera semana en Alemania durante el siglo xxi, y fue el álbum más vendido de 2019 en Alemania, Austria y Suiza. También fue certificado doble platino por la BVMI por vender al menos 400.000 copias en Alemania.",
+    "artistInfo": "Su música se basa en una corriente surgida en su país en los años 1990 llamada Neue Deutsche Härte del que son su exponente más popular y al que también pertenecen, entre otros, Oomph! y Die Krupps. Ellos mismos han denominado en alguna ocasión esta mezcla con el apelativo de Tanzmetall («metal de baile»)",
+    "duration": "46m"
+}
+{
+    "name": "Narigón del Siglo",
+    "releaseDate": "14/02/2000",
+    "tracks": 13,
+    "famousSongs": {
+        "song1": "Par Mil",
+        "song2": "Spaghetti del Rock",
+        "song3": "Que Pasa Conmigo"
+    },
+    "description": "Titulado originalmente Narigón del siglo, yo te dejo perfumado en la esquina para siempre, es el sexto álbum de estudio editado por la banda de rock argentina Divididos, lanzado en el año 2000 por la discográfica BMG.1 El mismo fue grabado en los estudios Abbey Road y marcaría una etapa de maduración para la banda, además de ser uno de sus discos más populares y aclamados tanto por los fanes de la banda como los críticos.",
+    "artistInfo": "Divididos es un grupo musical del Rock alternativo Argentina, fundado en 1988 por Ricardo Mollo y Diego Arnedo, exintegrantes de MAM junto a Omar Mollo2 y de Sumo, cuando esta se disolvió por la muerte de su líder, Luca Prodan. En sus trabajos, han incursionado en estilos musicales locales como el folklore.3 Ha sido galardonado en múltiples ocasiones tanto de forma grupal como individual. En el 2011 fue ganador del Gardel de Oro (la distinción más destacada de la música nacional) en reconocimiento a su exitosa trayectoria, premio que ha sido entregado solo 19 veces a distintos artistas tales como Luis Alberto Spinetta, Charly García, León Gieco, Mercedes Sosa y Gustavo Cerati, entre otros.",
+    "duration": "50m"
+}
+
+{
+    "name": "Conspiracy of One",
+    "releaseDate": "01/11/2000",
+    "tracks": 13,
+    "famousSongs": {
+        "song1": "Million Miles Away",
+        "song2": "Original Prankster",
+        "song3": "Want you Bad"
+    },
+    "description": "Es el sexto álbum de estudio de la banda estadounidense de punk rock The Offspring, lanzado el 14 de noviembre de 2000 a través de Columbia Records.1 Después de una gira mundial para promocionar su álbum anterior, Americana, que fue lanzado en 1998, The Offspring comenzó a trabajar en un nuevo álbum. Conspiracy of One fue originalmente planeado para ser lanzado a la venta por menor directamente desde el sitio web de la banda, hasta que su compañía discográfica amenazó con demandarlos y el álbum finalmente se publicó como una edición física.",
+    "artistInfo": "La banda ha sido una de las más influyentes en el resurgir del punk en la escena mainstream, abanderando la escena californiana de dichos géneros junto a Bad Religion, Rancid y NOFX a comienzos y mediados de los años 1990. Han vendido alrededor de 70 millones de copias en todo el mundo,12 de los cuales 14,5 millones son solamente copias despachadas en los Estados Unidos. Su cúspide comercial y artística fue alcanzada con el aclamado Smash de 1994, el álbum bajo sello independiente más vendido de la historia, con 17 millones de copias.13 El disco fue parte integrante, junto a Dookie de Green Day y Punk in Drublic de NOFX, de la revolución anteriormente mencionada.",
+    "duration": "37m"
+}
