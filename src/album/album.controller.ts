@@ -8,60 +8,46 @@ export class AlbumController {
   constructor(private readonly albumService: AlbumService) { }
 
   @Post('create')
-  async createAlbum(@Res() response, @Body() createAlbumDto: CreateAlbumDto) {
+  async createAlbum(@Body() createAlbumDto: CreateAlbumDto) {
     const albumCreated = await this.albumService.createAlbum(createAlbumDto);
-    return response.status(HttpStatus.OK).json({
-      message: "El  albun creado es:",
-      albumCreated
-    })
+    return albumCreated
   }
 
   @Get('find')
-  async findAllAlbum(@Res() response) {
+  async findAllAlbum() {
     const allAlbum = await this.albumService.findAllAlbum();
-    response.status(HttpStatus.OK).json({
-      message: 'los albunes encontrados son:',
-      allAlbum
-    })
-
+    return allAlbum
   }
 
   @Get(':id')
-  async findOneAlbum(@Res() response, @Param('id') id: string) {
+  async findOneAlbum(@Param('id') id: string) {
     const findOneAlbum = await this.albumService.findOneAlbum(id);
-    if (!findOneAlbum) throw new NotFoundException('Album does not exist')
-    response.status(HttpStatus.OK).json({
-      message: "tu albun buscado es:",
-      findOneAlbum
-
-    })
-    // const findOneAlbum = await this.albumService.findOneAlbum(id);
-    // return this.albumService.findOne(+id);
+    return findOneAlbum
   }
 
+  // @Patch(':id')
+  // async updateAlbum(@Res() response, @Param('id') id: string, @Body() updateAlbumDto: UpdateAlbumDto) {
+  //   const updateAlbum = await this.albumService.updateAlbum(id, updateAlbumDto);
+  //   const findOneAlbum = await this.albumService.findOneAlbum(id);
+  //   return response.status(HttpStatus.OK).json({
+  //     message1: "lo que quieres cambiar en el album es esto:",
+  //     updateAlbumDto,
+  //     message2: "el album a actualizar es:",
+  //     updateAlbum,
+  //     message3: "el album actualizado queda así:",
+  //     findOneAlbum,
+  //   })
+  // }
+
   @Patch(':id')
-  async updateAlbum(@Res() response, @Param('id') id: string, @Body() updateAlbumDto: UpdateAlbumDto) {
+  async updateAlbum(@Param('id') id: string, @Body() updateAlbumDto: UpdateAlbumDto) {
     const updateAlbum = await this.albumService.updateAlbum(id, updateAlbumDto);
-    const findOneAlbum = await this.albumService.findOneAlbum(id);
-    return response.status(HttpStatus.OK).json({
-      message1: "lo que quieres cambiar en el album es esto:",
-      updateAlbumDto,
-      message2: "el album a actualizar es:",
-      updateAlbum,
-      message3: "el album actualizado queda así:",
-      findOneAlbum,
-    })
+    return updateAlbum
   }
 
   @Delete(':id')
-  async removeAlbum(@Res() response, @Param('id') id: string) {
+  async removeAlbum(@Param('id') id: string) {
     const removeAlbum = await this.albumService.removeAlbum(id);
-    if (!removeAlbum) throw new NotFoundException('user does not exist')
-    return response.status(HttpStatus.OK).json({
-      message: 'the user has been deleted succefully',
-      removeAlbum
-    })
-
-
+    return removeAlbum
   }
 }
