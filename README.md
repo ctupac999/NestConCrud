@@ -97,6 +97,26 @@ En este caso Postman hara la veces de la parte del Front-end, enviando peticione
 
 
 ### 📝 <span style="color: white; background-color: black;">Conceptos Basicos</span>
+
+##### <span style="color: white; background-color: black;">NestJs</span> 
+{Framework de desarrollo del lado del servidor que se centra en la creación de aplicaciones web y APIs escalables y mantenibles utilizando Node.js y TypeScript. Proporciona una arquitectura modular y basada en módulos que facilita la organización del código y la implementación de patrones de diseño sólidos. Con Nest.js, los full stackers pueden aprovechar la inyección de dependencias, el enrutamiento, los controladores, los decoradores y otros conceptos avanzados de TypeScript para crear aplicaciones robustas y eficientes tanto en el backend como en el frontend. Además, Nest.js se integra perfectamente con herramientas y tecnologías populares, lo que lo convierte en una opción poderosa para el desarrollo full stack.}
+
+##### <span style="color: white; background-color: black;">Que es una API REST?</span> 
+
+Una API REST (Transferencia de Estado Representacional) es un estilo de arquitectura de software que define un conjunto de restricciones y principios para el diseño de servicios web. Está basada en el protocolo HTTP (Hypertext Transfer Protocol) y se utiliza para construir aplicaciones web escalables y eficientes.
+
+Las API REST se basan en los siguientes principios fundamentales:
+
+    Recursos: Los recursos son entidades de la aplicación que se pueden acceder y manipular a través de la API. Cada recurso se identifica mediante una URL (Uniform Resource Locator) única.
+
+    Operaciones CRUD: Las API REST definen operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre los recursos utilizando los métodos estándar de HTTP: GET para leer, POST para crear, PUT para actualizar y DELETE para eliminar.
+
+    Sin estado (Stateless): Las API REST son sin estado, lo que significa que cada solicitud HTTP contiene toda la información necesaria para procesarla y no depende de ningún estado almacenado en el servidor entre las solicitudes. Esto mejora la escalabilidad y la fiabilidad de las aplicaciones.
+
+    Interfaz uniforme: Las API REST siguen una interfaz uniforme que define cómo se comunican los clientes con el servidor. Esto incluye el uso de URIs para identificar recursos, el uso de métodos HTTP para indicar la acción a realizar en un recurso, y la representación de los recursos en formatos como JSON o XML.
+
+Las API REST se utilizan comúnmente en el desarrollo de aplicaciones web y móviles para proporcionar acceso a datos y funcionalidades a través de Internet. Permiten que diferentes sistemas y plataformas se comuniquen de manera eficiente y escalable, lo que facilita la integración y la interoperabilidad entre aplicaciones.
+
 ##### <span style="color: white; background-color: black;">CRUD</span> 
 {Es un acrónimo que se refiere a las operaciones básicas que se pueden realizar sobre los datos en una aplicación o sistema:
 Create (Crear): La operación de crear implica la creación de nuevos registros o datos en una base de datos o sistema.
@@ -240,9 +260,6 @@ En resumen, MongoDB Atlas simplifica la gestión de bases de datos MongoDB al of
 #### //Mongoose// 
 {Biblioteca de modelado de objetos para Node.js y MongoDB que proporciona una solución elegante para organizar y trabajar con datos en una aplicación. Permite definir esquemas de datos con tipos de datos específicos, validación de datos, consultas flexibles y métodos de abstracción para interactuar con la base de datos MongoDB.
 En resumen, Mongoose simplifica la interacción con MongoDB al proporcionar una capa de abstracción que facilita la definición de modelos de datos, la validación de datos y las operaciones de base de datos en aplicaciones Node.js.}
-
-#### //NestJs// 
-{Framework de desarrollo del lado del servidor que se centra en la creación de aplicaciones web y APIs escalables y mantenibles utilizando Node.js y TypeScript. Proporciona una arquitectura modular y basada en módulos que facilita la organización del código y la implementación de patrones de diseño sólidos. Con Nest.js, los full stackers pueden aprovechar la inyección de dependencias, el enrutamiento, los controladores, los decoradores y otros conceptos avanzados de TypeScript para crear aplicaciones robustas y eficientes tanto en el backend como en el frontend. Además, Nest.js se integra perfectamente con herramientas y tecnologías populares, lo que lo convierte en una opción poderosa para el desarrollo full stack.}
 
 #### //NodeJs// 
 {Entorno de ejecución de JavaScript del lado del servidor que utiliza el motor V8 de Google Chrome. Permite a los desarrolladores crear aplicaciones web altamente escalables y eficientes, aprovechando la naturaleza asincrónica y orientada a eventos de JavaScript. Con Node.js, los desarrolladores pueden construir servidores web, aplicaciones de red, APIs y aplicaciones en tiempo real de manera rápida y eficiente. Su ecosistema incluye el registro de paquetes NPM, que ofrece una amplia gama de módulos y bibliotecas de código abierto para facilitar el desarrollo. Node.js se ha convertido en una opción popular para el desarrollo web debido a su rendimiento, escalabilidad y capacidad para manejar grandes cantidades de conexiones simultáneas.}
