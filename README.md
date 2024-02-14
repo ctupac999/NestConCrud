@@ -97,6 +97,26 @@ En este caso Postman hara la veces de la parte del Front-end, enviando peticione
 
 
 ### 📝 <span style="color: white; background-color: black;">Conceptos Basicos</span>
+
+##### <span style="color: white; background-color: black;">NestJs</span> 
+{Framework de desarrollo del lado del servidor que se centra en la creación de aplicaciones web y APIs escalables y mantenibles utilizando Node.js y TypeScript. Proporciona una arquitectura modular y basada en módulos que facilita la organización del código y la implementación de patrones de diseño sólidos. Con Nest.js, los full stackers pueden aprovechar la inyección de dependencias, el enrutamiento, los controladores, los decoradores y otros conceptos avanzados de TypeScript para crear aplicaciones robustas y eficientes tanto en el backend como en el frontend. Además, Nest.js se integra perfectamente con herramientas y tecnologías populares, lo que lo convierte en una opción poderosa para el desarrollo full stack.}
+
+##### <span style="color: white; background-color: black;">Que es una API REST?</span> 
+
+Una API REST (Transferencia de Estado Representacional) es un estilo de arquitectura de software que define un conjunto de restricciones y principios para el diseño de servicios web. Está basada en el protocolo HTTP (Hypertext Transfer Protocol) y se utiliza para construir aplicaciones web escalables y eficientes.
+
+Las API REST se basan en los siguientes principios fundamentales:
+
+    Recursos: Los recursos son entidades de la aplicación que se pueden acceder y manipular a través de la API. Cada recurso se identifica mediante una URL (Uniform Resource Locator) única.
+
+    Operaciones CRUD: Las API REST definen operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre los recursos utilizando los métodos estándar de HTTP: GET para leer, POST para crear, PUT para actualizar y DELETE para eliminar.
+
+    Sin estado (Stateless): Las API REST son sin estado, lo que significa que cada solicitud HTTP contiene toda la información necesaria para procesarla y no depende de ningún estado almacenado en el servidor entre las solicitudes. Esto mejora la escalabilidad y la fiabilidad de las aplicaciones.
+
+    Interfaz uniforme: Las API REST siguen una interfaz uniforme que define cómo se comunican los clientes con el servidor. Esto incluye el uso de URIs para identificar recursos, el uso de métodos HTTP para indicar la acción a realizar en un recurso, y la representación de los recursos en formatos como JSON o XML.
+
+Las API REST se utilizan comúnmente en el desarrollo de aplicaciones web y móviles para proporcionar acceso a datos y funcionalidades a través de Internet. Permiten que diferentes sistemas y plataformas se comuniquen de manera eficiente y escalable, lo que facilita la integración y la interoperabilidad entre aplicaciones.
+
 ##### <span style="color: white; background-color: black;">CRUD</span> 
 {Es un acrónimo que se refiere a las operaciones básicas que se pueden realizar sobre los datos en una aplicación o sistema:
 Create (Crear): La operación de crear implica la creación de nuevos registros o datos en una base de datos o sistema.
@@ -241,9 +261,6 @@ En resumen, MongoDB Atlas simplifica la gestión de bases de datos MongoDB al of
 {Biblioteca de modelado de objetos para Node.js y MongoDB que proporciona una solución elegante para organizar y trabajar con datos en una aplicación. Permite definir esquemas de datos con tipos de datos específicos, validación de datos, consultas flexibles y métodos de abstracción para interactuar con la base de datos MongoDB.
 En resumen, Mongoose simplifica la interacción con MongoDB al proporcionar una capa de abstracción que facilita la definición de modelos de datos, la validación de datos y las operaciones de base de datos en aplicaciones Node.js.}
 
-#### //NestJs// 
-{Framework de desarrollo del lado del servidor que se centra en la creación de aplicaciones web y APIs escalables y mantenibles utilizando Node.js y TypeScript. Proporciona una arquitectura modular y basada en módulos que facilita la organización del código y la implementación de patrones de diseño sólidos. Con Nest.js, los full stackers pueden aprovechar la inyección de dependencias, el enrutamiento, los controladores, los decoradores y otros conceptos avanzados de TypeScript para crear aplicaciones robustas y eficientes tanto en el backend como en el frontend. Además, Nest.js se integra perfectamente con herramientas y tecnologías populares, lo que lo convierte en una opción poderosa para el desarrollo full stack.}
-
 #### //NodeJs// 
 {Entorno de ejecución de JavaScript del lado del servidor que utiliza el motor V8 de Google Chrome. Permite a los desarrolladores crear aplicaciones web altamente escalables y eficientes, aprovechando la naturaleza asincrónica y orientada a eventos de JavaScript. Con Node.js, los desarrolladores pueden construir servidores web, aplicaciones de red, APIs y aplicaciones en tiempo real de manera rápida y eficiente. Su ecosistema incluye el registro de paquetes NPM, que ofrece una amplia gama de módulos y bibliotecas de código abierto para facilitar el desarrollo. Node.js se ha convertido en una opción popular para el desarrollo web debido a su rendimiento, escalabilidad y capacidad para manejar grandes cantidades de conexiones simultáneas.}
 
@@ -256,6 +273,25 @@ Algunas de las características principales de Postman incluyen:
 4) Colecciones y entornos: Permite organizar solicitudes relacionadas en colecciones, lo que facilita la gestión y la reutilización de las mismas. Además, permite definir entornos para gestionar variables de entorno y configuraciones específicas para diferentes escenarios.
 5) Monitoreo y métricas: Ofrece capacidades de monitoreo y generación de métricas para evaluar el rendimiento y la disponibilidad de las APIs en producción.
 En resumen, Postman es una herramienta versátil y poderosa que simplifica el proceso de desarrollo, pruebas y documentación de APIs, permitiendo a los equipos de desarrollo construir y mantener APIs de manera eficiente y efectiva.}
+
+
+#### //pnpm// 
+
+pnpm es un gestor de paquetes para JavaScript y TypeScript que se utiliza principalmente en proyectos Node.js. Al igual que npm (Node Package Manager) y Yarn, pnpm se utiliza para instalar, administrar y actualizar las dependencias de un proyecto.
+
+Las principales características de pnpm incluyen:
+
+    Almacenamiento compartido: pnpm utiliza un almacenamiento compartido para las dependencias, lo que significa que si varias versiones de una misma dependencia están presentes en diferentes proyectos, pnpm solo guarda una copia de esa dependencia, lo que puede ahorrar espacio en el disco.
+
+    Instalación rápida: pnpm es conocido por su instalación rápida de paquetes. Utiliza enlaces simbólicos para vincular las dependencias compartidas, lo que puede acelerar el proceso de instalación y actualización.
+
+    Operaciones deterministas: pnpm garantiza que las instalaciones de paquetes sean deterministas y reproducibles. Esto significa que si otro desarrollador instala las mismas dependencias en otro entorno, obtendrá exactamente las mismas versiones de los paquetes.
+
+    Soporte para lockfiles: pnpm es compatible con los archivos de bloqueo (package-lock.json o pnpm-lock.yaml), que garantizan que las versiones exactas de las dependencias se instalen en el proyecto.
+
+    Compatibilidad con npm y Yarn: pnpm es compatible con los comandos y las características de npm y Yarn, por lo que es fácil cambiar de un gestor de paquetes a otro sin necesidad de modificar los scripts o comandos.
+
+En resumen, pnpm ofrece una alternativa eficiente y determinista para la gestión de dependencias en proyectos JavaScript y TypeScript, con características que pueden mejorar la eficiencia y la consistencia en el desarrollo de software.
 
 #### //TypeScript// 
 {Lenguaje de programación desarrollado por Microsoft que se basa en JavaScript y agrega características adicionales como tipado estático, clases, interfaces y otros constructos propios de la programación orientada a objetos.
