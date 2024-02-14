@@ -18,7 +18,7 @@ export class Album {
                 song2: string,
                 song3: string,
         };
-        @Prop({ required: true })
+        @Prop({})
         albumCover: string;
         @Prop({ required: true })
         description: string;

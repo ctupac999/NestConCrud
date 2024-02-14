@@ -7,17 +7,17 @@ import { UpdateAlbumDto } from './dto/update-album.dto';
 export class AlbumController {
   constructor(private readonly albumService: AlbumService) { }
 
+  @Get('find')
+  async findAllAlbum() {
+    const allAlbum = await this.albumService.findAllAlbum();
+    return allAlbum
+  }
   @Post('create')
   async createAlbum(@Body() createAlbumDto: CreateAlbumDto) {
     const albumCreated = await this.albumService.createAlbum(createAlbumDto);
     return albumCreated
   }
 
-  @Get('find')
-  async findAllAlbum() {
-    const allAlbum = await this.albumService.findAllAlbum();
-    return allAlbum
-  }
 
   @Get(':id')
   async findOneAlbum(@Param('id') id: string) {
