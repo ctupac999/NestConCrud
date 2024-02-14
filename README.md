@@ -274,6 +274,25 @@ Algunas de las características principales de Postman incluyen:
 5) Monitoreo y métricas: Ofrece capacidades de monitoreo y generación de métricas para evaluar el rendimiento y la disponibilidad de las APIs en producción.
 En resumen, Postman es una herramienta versátil y poderosa que simplifica el proceso de desarrollo, pruebas y documentación de APIs, permitiendo a los equipos de desarrollo construir y mantener APIs de manera eficiente y efectiva.}
 
+
+#### //pnpm// 
+
+pnpm es un gestor de paquetes para JavaScript y TypeScript que se utiliza principalmente en proyectos Node.js. Al igual que npm (Node Package Manager) y Yarn, pnpm se utiliza para instalar, administrar y actualizar las dependencias de un proyecto.
+
+Las principales características de pnpm incluyen:
+
+    Almacenamiento compartido: pnpm utiliza un almacenamiento compartido para las dependencias, lo que significa que si varias versiones de una misma dependencia están presentes en diferentes proyectos, pnpm solo guarda una copia de esa dependencia, lo que puede ahorrar espacio en el disco.
+
+    Instalación rápida: pnpm es conocido por su instalación rápida de paquetes. Utiliza enlaces simbólicos para vincular las dependencias compartidas, lo que puede acelerar el proceso de instalación y actualización.
+
+    Operaciones deterministas: pnpm garantiza que las instalaciones de paquetes sean deterministas y reproducibles. Esto significa que si otro desarrollador instala las mismas dependencias en otro entorno, obtendrá exactamente las mismas versiones de los paquetes.
+
+    Soporte para lockfiles: pnpm es compatible con los archivos de bloqueo (package-lock.json o pnpm-lock.yaml), que garantizan que las versiones exactas de las dependencias se instalen en el proyecto.
+
+    Compatibilidad con npm y Yarn: pnpm es compatible con los comandos y las características de npm y Yarn, por lo que es fácil cambiar de un gestor de paquetes a otro sin necesidad de modificar los scripts o comandos.
+
+En resumen, pnpm ofrece una alternativa eficiente y determinista para la gestión de dependencias en proyectos JavaScript y TypeScript, con características que pueden mejorar la eficiencia y la consistencia en el desarrollo de software.
+
 #### //TypeScript// 
 {Lenguaje de programación desarrollado por Microsoft que se basa en JavaScript y agrega características adicionales como tipado estático, clases, interfaces y otros constructos propios de la programación orientada a objetos.
 Una de las características principales de TypeScript es su capacidad para detectar y señalar errores durante el tiempo de compilación gracias al tipado estático. Esto permite a los desarrolladores atrapar errores comunes antes de ejecutar el código, lo que conduce a un código más robusto y menos propenso a errores.
